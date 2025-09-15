@@ -14,24 +14,14 @@ const ToolsSection = () => {
     "Python",
   ];
 
-  const tools = [
-    "Docker",
-    "Kubernetes",
-    "AWS",
-    "Firebase",
-    "PostgreSQL",
-    "MongoDB",
-    "Redis",
-    "Elasticsearch",
-  ];
+  const tools = ["Docker", "AWS", "Firebase", "PostgreSQL", "MongoDB"];
 
   const devOps = [
     "Git",
     "CI/CD",
-    "Fastlane",
-    "Azure DevOps",
     "Xcode",
     "Android Studio",
+    "Linux",
     "VS Code",
     "Figma",
   ];
