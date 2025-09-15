@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-export const useLoading = (duration = 2000) => {
+export const useLoading = (duration = 1000) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

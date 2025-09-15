@@ -1,4 +1,5 @@
 import { HiOutlineMail, HiOutlineBriefcase } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -49,7 +50,8 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row gap-4 items-center justify-center opacity-0 animate-slide-up"
           style={{ animationDelay: "1.2s" }}
         >
-          <button
+          <Link
+            to="mailto:dev.pavangollapalli@gmail.com"
             className="max-w-60 justify-center bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition-all duration-500 flex items-center gap-2"
             style={{ boxShadow: "none" }}
             onMouseEnter={(e) =>
@@ -60,8 +62,19 @@ const HeroSection = () => {
           >
             Let's connect{" "}
             <HiOutlineMail className="w-5 h-5 bg-white text-black" />
-          </button>
+          </Link>
           <button
+            onClick={() => {
+              const element = document.getElementById("work");
+              if (element) {
+                const elementPosition =
+                  element.getBoundingClientRect().top + window.pageYOffset - 40;
+                window.scrollTo({
+                  top: elementPosition,
+                  behavior: "smooth",
+                });
+              }
+            }}
             className="max-w-60 border border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-black transition-all duration-500 flex items-center gap-2"
             style={{ boxShadow: "none" }}
             onMouseEnter={(e) =>
