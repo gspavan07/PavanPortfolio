@@ -45,22 +45,28 @@ const ToolsSection = () => {
   return (
     <section ref={sectionRef} className=" bg-black text-white py-20 px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className={`text-5xl font-medium text-center mb-4 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-        style={{ transitionDelay: isVisible ? "0.2s" : "0s" }}>
-          Galactic Technologies & Space Skills
+        <h2
+          className={`text-5xl font-medium text-center mb-4 transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: isVisible ? "0.2s" : "0s" }}
+        >
+          Technologies & Skills
         </h2>
-        <div className={`w-20 h-1 bg-gradient-to-r from-gray-400 to-white mx-auto mb-16 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-        style={{ transitionDelay: isVisible ? "0.3s" : "0s" }}></div>
+        <div
+          className={`w-20 h-1 bg-gradient-to-r from-gray-400 to-white mx-auto mb-16 transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: isVisible ? "0.3s" : "0s" }}
+        ></div>
 
         {/* Frameworks & Libraries */}
-        <div className={`mb-12 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-        style={{ transitionDelay: isVisible ? "0.4s" : "0s" }}>
+        <div
+          className={`mb-12 transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: isVisible ? "0.4s" : "0s" }}
+        >
           <h3 className="text-xl text-gray-300 mb-6 flex items-center">
             <span className="mr-2">🚀</span>
             Frameworks & Languages
@@ -74,10 +80,12 @@ const ToolsSection = () => {
         </div>
 
         {/* Tools & Technologies */}
-        <div className={`mb-12 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-        style={{ transitionDelay: isVisible ? "0.6s" : "0s" }}>
+        <div
+          className={`mb-12 transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: isVisible ? "0.6s" : "0s" }}
+        >
           <h3 className="text-xl text-gray-300 mb-6 flex items-center">
             <span className="mr-2">🛠</span>
             Tools & Technologies
@@ -91,10 +99,12 @@ const ToolsSection = () => {
         </div>
 
         {/* Development & DevOps */}
-        <div className={`mb-12 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-        style={{ transitionDelay: isVisible ? "0.8s" : "0s" }}>
+        <div
+          className={`mb-12 transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: isVisible ? "0.8s" : "0s" }}
+        >
           <h3 className="text-xl text-gray-300 mb-6 flex items-center">
             <span className="mr-2">📋</span>
             Development & DevOps
